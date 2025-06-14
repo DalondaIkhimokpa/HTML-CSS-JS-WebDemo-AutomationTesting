@@ -1,53 +1,63 @@
-name: Run Unit and Selenium Tests
+name: Run PHPUnit + Selenium Tests
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
-  php-unit-tests:
+  unit-tests:
+    name: 🔍 Run Unit Tests
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.2' # ensure it's compatible with your composer.lock
-
-      - name: Install dependencies
-        run: composer install --no-interaction
-
-      - name: Run Unit Tests
-        run: ./vendor/bin/phpunit tests/unit
-
-  php-selenium-tests:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Set up PHP
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
 
       - name: Install dependencies
-        run: composer install --no-interaction
+        run: composer install
 
-      - name: Start PHP Server
-        run: php -S localhost:8080 -t . &
-      
-      - name: Start ChromeDriver
+      - name: Run PHPUnit (Unit)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-chromedriver
-          chromedriver --port=9515 &
+          mkdir -p logs
+          vendor/bin/phpunit --configuration phpunit.xml --testsuite Unit | tee logs/php.log
+
+  selenium-tests:
+    name: 🧪 Run Selenium Tests
+    runs-on: ubuntu-latest
+
+    services:
+      selenium:
+        image: seleniarm/standalone-chromium
+        ports:
+          - 9515:4444
+        options: >-
+          --health-cmd "curl -f http://localhost:4444 || exit 1"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Install dependencies
+        run: composer install
+
+      - name: Start local server
+        run: |
+          php -S localhost:8080 -t . > /dev/null 2>&1 &
           sleep 5
 
-      - name: Run Selenium Test
-        run: ./vendor/bin/phpunit --configuration phpunit.xml   --testsuite "Selenium"
+      - name: Run PHPUnit (Selenium)
+        run: |
+          mkdir -p logs
+          vendor/bin/phpunit --configuration phpunit.xml --testsuite Selenium | tee logs/core.log
 
-      - name: Run Unit Tests
-        run: ./vendor/bin/phpunit tests/unit --configuration phpunit.xml --testsuite "Unit"
 
 
