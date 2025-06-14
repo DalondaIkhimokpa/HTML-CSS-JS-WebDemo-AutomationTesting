@@ -13,3 +13,4 @@ geckodriver.log
 .env
 *.vendor
 *.notes
+logs
