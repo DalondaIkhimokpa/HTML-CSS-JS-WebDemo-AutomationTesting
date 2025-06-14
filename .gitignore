@@ -1,0 +1,15 @@
+# Text files
+*.txt
+
+# Selenium
+chromedriver.log
+geckodriver.log
+
+# System
+.DS_Store
+ 
+ vendor
+.*logs
+.env
+*.vendor
+*.notes

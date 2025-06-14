@@ -1,0 +1,24 @@
+=== 🧪 RUNNING CORE PHP TESTS (PHPUnit + Selenium) ===
+[TEST 1] PHPUnit Tests:
+PHPUnit 10.5.46 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.7
+Configuration: /Users/deedee/Documents/html_course/phpunit.xml
+
+..                                                                  2 / 2 (100%)
+
+Time: 00:02.473, Memory: 8.00 MB
+
+OK (2 tests, 2 assertions)
+[TEST 2] Selenium Tests:
+PHPUnit 10.5.46 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.7
+Configuration: /Users/deedee/Documents/html_course/phpunit.xml
+
+..                                                                  2 / 2 (100%)
+
+Time: 00:01.873, Memory: 8.00 MB
+
+OK (2 tests, 2 assertions)
+=== ✅ CORE TESTS COMPLETE ===

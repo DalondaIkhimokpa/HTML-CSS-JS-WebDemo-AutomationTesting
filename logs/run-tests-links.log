@@ -1,0 +1,160 @@
+=== RUNNING LINK AND IMAGE CHECK TESTS ===
+[TEST 1] Broken Link Check:
+200 https://codewars.com
+200 https://css-tricks.com/
+200 https://cssreference.io
+200 https://dev.to
+200 https://developer.mozilla.org
+200 https://eloquentjavascript.net
+200 https://github.com/DalondaIkhimokpa
+200 https://github.com/sebastianbergmann/php-code-coverage
+404 https://github.com/yourusername/task-tracker
+BROKEN LINK: https://github.com/yourusername/task-tracker
+200 https://htmlreference.io
+200 https://javascript.info
+403 https://leetcode.com
+BROKEN LINK: https://leetcode.com
+200 https://phpunit.de/
+200 https://stackoverflow.com
+200 https://validator.w3.org/
+200 https://vercel.com
+200 https://web.dev/
+200 https://www.GitHub.com
+200 https://www.facebook.com
+200 https://www.freecodecamp.org
+200 https://www.google.com
+200 https://www.google.com/
+200 https://www.instagram.com
+200 https://www.linkedin.com
+200 https://www.twitter.com
+200 https://www.w3schools.com
+200 https://www.w3schools.com/
+[TEST 2] Image Link Check:
+MISSING LOCAL IMAGE: %s_icons/file-code.svg
+MISSING LOCAL IMAGE: %s_icons/file-directory.svg
+MISSING LOCAL IMAGE: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg
+MISSING LOCAL IMAGE: photo.jpg
+=== LINK AND IMAGE CHECK TESTS COMPLETED ===
+See logs/links.log for details.
+=== RUNNING LINK AND IMAGE CHECK TESTS ===
+[TEST 1] Broken Link Check:
+200 https://codewars.com
+200 https://css-tricks.com/
+200 https://cssreference.io
+200 https://dev.to
+200 https://developer.mozilla.org
+200 https://eloquentjavascript.net
+200 https://github.com/DalondaIkhimokpa
+200 https://github.com/sebastianbergmann/php-code-coverage
+404 https://github.com/yourusername/task-tracker
+BROKEN LINK: https://github.com/yourusername/task-tracker
+200 https://htmlreference.io
+200 https://javascript.info
+403 https://leetcode.com
+BROKEN LINK: https://leetcode.com
+200 https://phpunit.de/
+200 https://stackoverflow.com
+200 https://validator.w3.org/
+200 https://vercel.com
+200 https://web.dev/
+200 https://www.GitHub.com
+200 https://www.facebook.com
+200 https://www.freecodecamp.org
+200 https://www.google.com
+200 https://www.google.com/
+200 https://www.instagram.com
+200 https://www.linkedin.com
+200 https://www.twitter.com
+200 https://www.w3schools.com
+200 https://www.w3schools.com/
+[TEST 2] Image Link Check:
+MISSING LOCAL IMAGE: %s_icons/file-code.svg
+MISSING LOCAL IMAGE: %s_icons/file-directory.svg
+MISSING LOCAL IMAGE: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg
+MISSING LOCAL IMAGE: photo.jpg
+=== LINK AND IMAGE CHECK TESTS COMPLETED ===
+See logs/links.log for details.
+=== RUNNING LINK AND IMAGE CHECK TESTS ===
+[TEST 1] Broken Link Check:
+200 https://codewars.com
+200 https://css-tricks.com/
+200 https://cssreference.io
+200 https://dev.to
+200 https://developer.mozilla.org
+200 https://eloquentjavascript.net
+200 https://github.com/DalondaIkhimokpa
+200 https://github.com/sebastianbergmann/php-code-coverage
+404 https://github.com/yourusername/task-tracker
+BROKEN LINK: https://github.com/yourusername/task-tracker
+200 https://htmlreference.io
+200 https://javascript.info
+403 https://leetcode.com
+BROKEN LINK: https://leetcode.com
+200 https://phpunit.de/
+200 https://stackoverflow.com
+200 https://validator.w3.org/
+200 https://vercel.com
+200 https://web.dev/
+200 https://www.GitHub.com
+200 https://www.facebook.com
+200 https://www.google.com
+200 https://www.google.com/
+200 https://www.instagram.com
+200 https://www.linkedin.com
+200 https://www.twitter.com
+200 https://www.w3schools.com
+200 https://www.w3schools.com/
+[TEST 2] Image Link Check:
+MISSING LOCAL IMAGE: %s_icons/file-code.svg
+MISSING LOCAL IMAGE: %s_icons/file-directory.svg
+MISSING LOCAL IMAGE: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg
+=== LINK AND IMAGE CHECK TESTS COMPLETED ===
+See logs/links.log for details.
+=== RUNNING LINK AND IMAGE CHECK TESTS ===
+[TEST 1] Broken Link Check:
+200 https://codewars.com
+200 https://css-tricks.com/
+200 https://cssreference.io
+200 https://dev.to
+200 https://developer.mozilla.org
+200 https://eloquentjavascript.net
+200 https://github.com/DalondaIkhimokpa
+200 https://github.com/sebastianbergmann/php-code-coverage
+404 https://github.com/yourusername/task-tracker
+BROKEN LINK: https://github.com/yourusername/task-tracker
+200 https://htmlreference.io
+200 https://javascript.info
+403 https://leetcode.com
+BROKEN LINK: https://leetcode.com
+200 https://phpunit.de/
+200 https://stackoverflow.com
+200 https://validator.w3.org/
+200 https://vercel.com
+200 https://web.dev/
+200 https://www.GitHub.com
+200 https://www.facebook.com
+200 https://www.google.com
+200 https://www.google.com/
+200 https://www.instagram.com
+200 https://www.linkedin.com
+200 https://www.twitter.com
+200 https://www.w3schools.com
+200 https://www.w3schools.com/
+[TEST 2] Image Link Check:
+MISSING LOCAL IMAGE: %s_icons/file-code.svg
+MISSING LOCAL IMAGE: %s_icons/file-directory.svg
+MISSING LOCAL IMAGE: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg
+MISSING LOCAL IMAGE: /assets/img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg
+=== LINK AND IMAGE CHECK TESTS COMPLETED ===
+See logs/links.log for details.

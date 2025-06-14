@@ -1,0 +1,24 @@
+[TEST 10] Broken Link Check:
+MISSING LOCAL IMAGE: /Users/deedee/Documents/html_course/screenshots/Screenshot 2025-05-27 at 1.37.44 PM.png
+200 https://cssreference.io
+200 https://dev.to
+200 https://developer.mozilla.org
+200 https://eloquentjavascript.net
+404 https://github.com/yourusername/task-tracker
+BROKEN LINK: https://github.com/yourusername/task-tracker
+200 https://htmlreference.io
+200 https://javascript.info
+403 https://leetcode.com
+BROKEN LINK: https://leetcode.com
+200 https://stackoverflow.com
+200 https://vercel.com
+200 https://www.GitHub.com
+200 https://www.facebook.com
+200 https://www.google.com
+200 https://www.google.com/
+200 https://www.instagram.com
+200 https://www.linkedin.com
+200 https://www.twitter.com
+200 https://www.w3schools.com
+[TEST 9] Image Link Check:
+MISSING LOCAL IMAGE: (./Users/deedee/Documents/html_course/screenshots/Screenshot 2025-05-27 at 1.39.16 PM.png)

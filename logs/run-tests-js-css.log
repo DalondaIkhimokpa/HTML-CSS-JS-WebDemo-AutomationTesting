@@ -1,0 +1,24 @@
+=== RUNNING JS + CSS CHECKS ===
+[TEST 1] JavaScript Functionality:
+❌ File not found: assets/js/main.js
+[TEST 2] CSS File Check:
+✅ main.css exists
+=== ✅ JS + CSS CHECKS COMPLETE ===
+=== RUNNING JS + CSS CHECKS ===
+[TEST 1] JavaScript Functionality:
+❌ File not found: assets/js/main.js
+[TEST 2] CSS File Check:
+✅ main.css exists
+=== ✅ JS + CSS CHECKS COMPLETE ===
+=== RUNNING JS + CSS CHECKS ===
+[TEST 1] JavaScript Functionality:
+❌ File not found: assets/js/main.js
+[TEST 2] CSS File Check:
+✅ main.css exists
+=== ✅ JS + CSS CHECKS COMPLETE ===
+=== RUNNING JS + CSS CHECKS ===
+[TEST 1] JavaScript Functionality:
+✅ JS interactivity detected
+[TEST 2] CSS File Check:
+✅ main.css exists
+=== ✅ JS + CSS CHECKS COMPLETE ===

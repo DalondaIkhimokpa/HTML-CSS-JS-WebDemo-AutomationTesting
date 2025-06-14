@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="D.Ikhimokpa">
+    <meta name="description" content="Helpful resources for learning web development. This is the resources page.">
+    <title>Learning Resources - Web Page Project Demo</title>
+    <link rel="icon" href="assets/log/BabyTuxSitBlack.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/log/BabyTuxSitBlack.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development Learning Resources</h1>
+        <p>A collection of helpful resources I've used in my web development journey.</p>
+        <figure>
+            <img src="assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpg" alt="Learning Resources" title="Web Development Learning Resources" width="640" height="511" loading="lazy">
+            <figcaption>Resources for Learning</figcaption>
+        </figure>
+        <nav aria-labelledby="resources-navigation">
+            <h2 id="resources-navigation">Resource Categories</h2>
+            <ul>
+                <li><a href="#html-css">HTML &amp; CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#tools">Development Tools</a></li>
+                <li><a href="#communities">Communities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="html-css">
+            <h2>HTML &amp; CSS Resources</h2>
+            <section>
+                <h3>Online Tutorials</h3>
+                <dl>
+                    <dt><a href="https://www.w3schools.com" target="_blank">W3Schools</a></dt>
+                    <dd>Comprehensive tutorials with interactive examples for all web technologies.</dd>
+                    
+                    <dt><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></dt>
+                    <dd>Authoritative documentation and guides from Mozilla.</dd>
+                </dl>
+            </section>
+
+            <section>
+                <h3>Reference Guides</h3>
+                <ul>
+                    <li><a href="https://htmlreference.io" target="_blank">HTML Reference</a> - Visual guide to HTML elements</li>
+                    <li><a href="https://cssreference.io" target="_blank">CSS Reference</a> - Visual guide to CSS properties</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="javascript">
+            <h2>JavaScript Resources</h2>
+            <section>
+                <h3>Learning Platforms</h3>
+                <ul>
+                    <li><a href="https://javascript.info" target="_blank">The Modern JavaScript Tutorial</a></li>
+                    <li><a href="https://eloquentjavascript.net" target="_blank">Eloquent JavaScript</a> (Free online book)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Practice Sites</h3>
+                <ul>
+                    <li><a href="https://codewars.com" target="_blank">Codewars</a> - Coding challenges</li>
+                    <li><a href="https://leetcode.com" target="_blank">LeetCode</a> - Algorithm practice</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="tools">
+            <h2>Development Tools</h2>
+            <section>
+                <h3>Code Editors</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Sublime Text</li>
+                    <li>Atom</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Browser Tools</h3>
+                <ul>
+                    <li>Chrome Developer Tools</li>
+                    <li>Firefox Developer Edition</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="communities">
+            <h2>Developer Communities</h2>
+            <section>
+                <h3>Online Forums</h3>
+                <ul>
+                    <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+                    <li><a href="https://dev.to" target="_blank">DEV Community</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Local Meetups</h3>
+                <address>
+                    Austin Web Developers Group<br>
+                    Meets every 2nd Tuesday<br>
+                    <a href="mailto:austinwebdev@example.com">austinwebdev@example.com</a>
+                </address>
+            </section>
+        </article>
+
+        <article>
+            <h2>Resource Submission</h2>
+            <p>Have a resource to recommend? Let me know!</p>
+            <form action="httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Suggest a Resource</legend>
+                    <p>
+                        <label for="resource-name">Resource Name:</label>
+                        <input type="text" id="resource-name" name="resource-name" required>
+                    </p>
+                    <p>
+                        <label for="resource-url">URL:</label>
+                        <input type="url" id="resource-url" name="resource-url" required>
+                    </p>
+                    <p>
+                        <label for="resource-category">Category:</label>
+                        <select id="resource-category" name="resource-category" required>
+                            <option value="" selected>Select a category</option>
+                            <option value="html-css">HTML/CSS</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="tools">Tools</option>
+                            <option value="community">Community</option>
+                        </select>
+                    </p>
+                    <button type="submit">Submit Resource</button>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; My Web Page Project Demo. All rights reserved.</p>
+        <p>Last updated: June 2025</p>
+        <hr>
+        &lt;&lt;&lt; &copy; <a href="about.html">D.Ikhimokpa</a> &gt;&gt;&gt;
+        <p>
+            <a href="index.html">Back to Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="projects.html">Projects</a> | 
+            <a href="info.html">Info</a>
+        </p>
+    </footer>
+</body>
+</html>

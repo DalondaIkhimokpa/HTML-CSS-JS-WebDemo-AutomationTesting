@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #4CAF50;
+}
+p {
+    font-size: 16px;
+}
+table, tr, th, td, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}   
+/* Button hover effect */
+button {
+    transition: transform 0.3s, background 0.3s;
+  }
+  button:hover {
+    transform: scale(1.05);
+    background: #4CAF50;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  article {
+    animation: fadeIn 1s ease-in;
+  }
+/* Mobile Menu Styles */
+nav {
+  display: none;
+}
+nav.show {
+  display: block;
+}
+
+.menu-btn {
+  display: none; /* Hidden by default */
+}
+
+/* Show menu button on mobile */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+}
+/* Fade-in animation for page load */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply to main content */
+main {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Hover effect for buttons */
+button:not(.menu-btn) {
+  transition: all 0.3s;
+}
+
+button:not(.menu-btn):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Pulse animation for important elements */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+/* Menu Button */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+/* Menu Button Animation */
+.menu-btn.open {
+  transform: rotate(90deg);
+}
+
+/* Navigation Menu */
+nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+nav.active {
+  max-height: 500px; /* Adjust based on your menu height */
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+}
+
