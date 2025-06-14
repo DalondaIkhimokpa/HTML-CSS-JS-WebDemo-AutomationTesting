@@ -3,8 +3,7 @@
 ![PHP](https://img.shields.io/badge/PHP-Ready-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-Integrated-green)
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-Tested-success)
-![CI](https://github.com/your-username/qa-practice-portal/actions/workflows/phpunit.yml/badge.svg)
-
+[![Run PHPUnit + Selenium Tests](https://github.com/DalondaIkhimokpa/HTML-CSS-JS-WebDemo-AutomationTesting/actions/workflows/test-html-form.yml/badge.svg)](https://github.com/DalondaIkhimokpa/HTML-CSS-JS-WebDemo-AutomationTesting/actions/workflows/test-html-form.yml)
 [![Vercel Status](https://vercelbadge.vercel.app/api/dalondaikhimokpa/html_course)](https://html_course.vercel.app)
 
 ![Website Screenshot](assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg)
