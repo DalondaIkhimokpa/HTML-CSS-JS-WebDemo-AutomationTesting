@@ -1,16 +1,16 @@
 # Text files
 *.txt
 
+# Node
+node_modules/
+npm-debug.log*
+
 # Selenium
 chromedriver.log
 geckodriver.log
 
 # System
 .DS_Store
- 
- vendor
-.*logs
-.env
-*.vendor
-*.notes
-logs
+
+vendor
+notes
