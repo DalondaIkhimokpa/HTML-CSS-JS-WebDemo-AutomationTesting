@@ -135,3 +135,123 @@ MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
 === HTML AND ACCESSIBILITY TESTS COMPLETED ===
 See logs/html.log for details.
 Cleaning up...
+=== RUNNING HTML VALIDATION AND ACCESSIBILITY TESTS ===
+[TEST 1] HTML Validation:
+npm error could not determine executable to run
+npm error A complete log of this run can be found in: /Users/deedee/.npm/_logs/2025-06-14T22_32_03_530Z-debug-0.log
+[TEST 2] Missing Alt Attributes Check:
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="assets/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg" title="Computer Screen for Programmer" width="640" height="427" loading="lazy">
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img[^>
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-code.svg" class="octicon" />
+MISSING ALT ATTRIBUTE: <img src="%s_icons/file-directory.svg" class="octicon" />
+=== HTML AND ACCESSIBILITY TESTS COMPLETED ===
+See logs/html.log for details.
+Cleaning up...
