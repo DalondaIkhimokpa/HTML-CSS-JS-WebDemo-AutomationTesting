@@ -14,3 +14,7 @@ geckodriver.log
 
 vendor
 notes
+
+# Log files
+*.log
+storage/logs/*
