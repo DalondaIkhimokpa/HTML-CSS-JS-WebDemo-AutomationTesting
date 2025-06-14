@@ -12,7 +12,7 @@ geckodriver.log
 # System
 .DS_Store
 
-vendor
+*.vendor
 notes
 
 # Log files
